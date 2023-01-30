@@ -1,0 +1,10 @@
+steps:
+- name: bash
+  script: |
+    #!/usr/bin/env bash
+    echo "hello"
+
+- name: python
+  script: |
+    #!/usr/bin/env python
+    print('hello from python')
